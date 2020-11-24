@@ -1,0 +1,24 @@
+<html>
+
+<head>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
+  <script src="./TeamImposterJS.js"></script>
+
+</head>
+
+<body>
+
+  <script>
+
+let myData = d3.csv("AmongUsData.csv").then(function(myData) {
+  console.log(myData);
+  init(myData);
+});
+
+  </script>
+
+</body>
+
+</html>
